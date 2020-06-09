@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(images/bg-desktop.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aqua;
+}
+
+.fylo-container{
+    margin: 300px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.fylo-cover{
+    
+    width: 350px;
+    height: 40vh;
+    padding: 30px;
+    border-top-right-radius: 40%;
+    background: darkblue;
+    position: relative;
+    
+}
+.header-logo{
+    margin: 10px;
+    
+}
+.header-logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    width: 250px;
+}
+
+.body-icons img{
+    background: #f59;
+    width: 70px;
+    height: 60px;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 10px;
+    padding: 3px;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.storage-range{
+    
+    width: 400px;
+    height: 25vh;
+    color: white;
+    background: darkblue;
+    border-radius: 15px;
+    margin: 99px;
+    
+    position: relative;
+}
+.storage-range label{
+    font-size: 15px;
+}
+progress{
+    width: 300px;
+    height: 4vh;
+    position: relative;
+    
+}
+
+progress::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    background: aqua;
+    right: 92px;
+    transform: rotate(90deg);
+    bottom: 1px;
+    height:inherit ;
+    border-radius: 100%;
+}
+.inner-storgae{
+    padding: 20px;
+}
+
+p.zero{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+p.thousand{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+
+/* ribbon */
+
+.ribbon
+{
+    display: none;
+    position: absolute;
+    right: 350px;
+    top: 350px;
+    z-index: 2;
+	background: #fff;
+	margin: #f50;
+	width:180px;
+	height:60px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+     
+}
+
+
+.ribbon .ribbon_border
+{
+	position: absolute;
+	top: 10px;
+	left:100px;
+	float:right;
+	height:0px;
+	width:0px;
+	border:50px  solid transparent;
+	border-right: 30px solid #fff;
+}
+
+
+
+
+    
